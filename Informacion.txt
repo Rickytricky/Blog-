@@ -1,0 +1,37 @@
+    Digital Hub 23 de Julio 2018
+
+Asignar variables en javascript y hacer todo chido.
+Ejemplo:
+    var saludo = "Hola Clase"
+
+Mostrar el texto de la variable en pantalla o en consola.
+Ejemplo: 
+    alert(saludo)
+    console.log(saludo)
+
+Hacer un input para ingresar un valor y asignarlo a una variable.
+Ejemplo:
+    var comoTeLlamas = prompt("¿Cuál es tu nombre?")
+    console.log(comoTeLlamas)
+
+Para saber el tipo de variable en javascript
+Ejemplo:
+    typeof comoTeLlamas;
+    Consola Regresa: "string"
+    var a = 22
+    typeof a
+    "number"
+    Dato curioso si hay un valor null regresa valor de "object"
+
+Convertir datos
+    var textro = "22"
+    console.log(Number(textro) + 2)
+    consola muestra: 24
+
+//Comentarios
+
+Correr una function por si misma(La función se encierra dentro de parentesis)
+
+(function hello(){
+	console.log("HOla clase");
+})()
